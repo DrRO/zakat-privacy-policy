@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="سياسة الخصوصية لتطبيق حساب الزكاة Zakat Calculation.">
+  <meta name="theme-color" content="#0f766e">
+  <title>سياسة الخصوصية | حساب الزكاة</title>
+  <style>
+    :root {
+      --teal: #0f766e;
+      --teal-dark: #115e59;
+      --gold: #b58a3a;
+      --ink: #243238;
+      --muted: #607176;
+      --paper: #ffffff;
+      --background: #f3f7f6;
+      --line: #dce7e4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+    }
+    header {
+      background: linear-gradient(135deg, var(--teal-dark), var(--teal));
+      color: white;
+      padding: 46px 20px 38px;
+      text-align: center;
+      border-bottom: 4px solid var(--gold);
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 4vw, 2.4rem); }
+    header p { margin: 0; opacity: .92; }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 30px auto 48px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: clamp(20px, 4vw, 42px);
+      box-shadow: 0 8px 28px rgba(25, 65, 60, .06);
+    }
+    .updated { color: var(--muted); font-size: .92rem; margin-top: 0; }
+    h2 { color: var(--teal-dark); font-size: 1.22rem; margin: 30px 0 8px; }
+    p { margin: 8px 0 12px; }
+    ul { padding-inline-start: 24px; }
+    li { margin: 5px 0; }
+    a { color: var(--teal); overflow-wrap: anywhere; }
+    .notice {
+      background: #f0f8f6;
+      border-inline-start: 4px solid var(--teal);
+      padding: 13px 16px;
+      border-radius: 8px;
+      margin: 18px 0;
+    }
+    .language-link { text-align: center; margin: 0 0 24px; }
+    .language-link button {
+      border: 1px solid var(--teal);
+      color: var(--teal-dark);
+      background: white;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .english { direction: ltr; text-align: left; }
+    .english ul { padding-left: 24px; }
+    .english h2 { color: var(--teal-dark); }
+    [hidden] { display: none !important; }
+    footer { text-align: center; color: var(--muted); font-size: .88rem; padding: 0 16px 28px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>سياسة الخصوصية</h1>
+    <p>تطبيق حساب الزكاة | Zakat Calculation</p>
+  </header>
+
+  <main>
+    <div class="language-link">
+      <button type="button" id="languageToggle" aria-label="Switch language">English</button>
+    </div>
+
+    <article id="arabic">
+      <p class="updated">تاريخ آخر تحديث: 4 نوفمبر 2026</p>
+
+      <p>
+        تحترم خصوصيتك. توضح هذه السياسة كيفية تعامل تطبيق
+        <strong>حساب الزكاة (Zakat Calculation)</strong> مع المعلومات عند استخدامك له،
+        وما يتعلق بتخزين البيانات محليًا والاتصال بخدمة أسعار الذهب.
+      </p>
+
+      <h2>1. المعلومات التي تدخلها في التطبيق</h2>
+      <p>
+        لا يتطلب التطبيق إنشاء حساب أو تسجيل الدخول. وقد تختار إدخال معلومات
+        لاستخدام وظائفه، مثل بيانات المستفيدين، ومبالغ وتواريخ تخصيص أموال الزكاة
+        أو الصدقة، وسجلات المدفوعات والملاحظات، بالإضافة إلى إعدادات التطبيق
+        والمفضلة في دليل الزكاة.
+      </p>
+
+      <h2>2. كيفية تخزين المعلومات</h2>
+      <p>
+        تُحفظ المعلومات التي تدخلها في التطبيق محليًا على جهازك باستخدام
+        مساحة التخزين المحلية للتطبيق (SharedPreferences). ولا يستخدم الإصدار
+        الحالي خادمًا خاصًا بالتطبيق أو حسابًا سحابيًا لمزامنة بيانات المستفيدين
+        أو التخصيصات أو المدفوعات.
+      </p>
+      <div class="notice">
+        <strong>ملاحظة مهمة بشأن النسخ الاحتياطي:</strong>
+        إعدادات Android الحالية للتطبيق تسمح بإدراج بيانات التطبيق المؤهلة ضمن
+        النسخ الاحتياطي الذي يديره نظام Android، وكذلك نقل بيانات التطبيق بين
+        الأجهزة، وفقًا لإعدادات الجهاز وحساب المستخدم وخدمات النظام المتاحة.
+        هذه العملية يديرها Android وليست خدمة مزامنة أو خادمًا خاصًا بتطبيق حساب
+        الزكاة. راجع إعدادات النسخ الاحتياطي في جهازك لمعرفة الخيارات المتاحة.
+      </div>
+
+      <h2>3. الاتصال بخدمة أسعار الذهب</h2>
+      <p>
+        للحصول على أسعار الذهب، يتصل التطبيق بخدمة خارجية هي
+        <a href="https://goldprice.dev/" target="_blank" rel="noopener noreferrer">GoldPrice.dev</a>
+        عبر واجهة برمجية لقراءة الأسعار. يرسل التطبيق رمز العملة المطلوب ضمن
+        طلب الأسعار. وكجزء معتاد من أي اتصال بالإنترنت، قد يتلقى مزود الخدمة
+        بيانات الاتصال التقنية اللازمة لتقديم الطلب، مثل عنوان IP ومعلومات
+        الاتصال التي يوفرها الجهاز أو الشبكة.
+      </p>
+      <p>
+        لا يرسل التطبيق إلى خدمة أسعار الذهب أسماء المستفيدين أو بياناتهم،
+        ولا مبالغ التخصيصات أو المدفوعات أو الملاحظات الخاصة بك.
+        وقد يحتفظ التطبيق بآخر سعر تم جلبه لاستخدامه عند تعذر الاتصال، مع
+        توضيح أن السعر قديم عند انطباق ذلك.
+      </p>
+      <p>
+        يخضع استخدام الخدمة الخارجية لسياسة الخصوصية وشروط مزودها:
+        <a href="https://goldprice.dev/" target="_blank" rel="noopener noreferrer">موقع GoldPrice.dev</a>.
+      </p>
+
+      <h2>4. مشاركة المعلومات</h2>
+      <p>
+        لا نبيع المعلومات الشخصية ولا نشارك بيانات المستفيدين أو سجلاتك المالية
+        مع جهات تسويقية. لا يتضمن الإصدار الحالي، بحسب مكونات التطبيق التي تمت
+        مراجعتها، أدوات إعلانات أو تحليلات أو خدمات تقارير أعطال خارجية.
+        ويظل اتصال التطبيق بخدمة أسعار الذهب موضحًا في القسم السابق.
+      </p>
+
+      <h2>5. الأذونات وسجلات التشخيص</h2>
+      <p>
+        يحتاج التطبيق إلى إذن الاتصال بالإنترنت لجلب أسعار الذهب. وقد تُكتب
+        رسائل تشخيصية محلية عند حدوث بعض الأخطاء أثناء تشغيل التطبيق؛ ولا يعني
+        ذلك بحد ذاته إرسال هذه الرسائل إلى خادم خارجي.
+      </p>
+
+      <h2>6. حماية المعلومات والاحتفاظ بها</h2>
+      <p>
+        تُخزن البيانات داخل مساحة التطبيق على جهازك، وتستفيد من وسائل الحماية
+        التي يوفرها نظام Android للتطبيقات. لا نَدّعي أن جميع البيانات المخزنة
+        مشفرة بتشفير مستقل على مستوى التطبيق. تعتمد حماية الجهاز أيضًا على
+        قفل الشاشة وإعدادات الأمان والنسخ الاحتياطي التي تختارها.
+      </p>
+      <p>
+        يمكنك إدارة البيانات التي أدخلتها من داخل التطبيق حيثما تتيح وظائفه ذلك،
+        كما يمكنك حذف بيانات التطبيق من إعدادات Android أو إزالة التطبيق.
+        قد تؤدي إزالة التطبيق أو مسح بياناته إلى فقدان البيانات المحلية التي
+        لم تُستعد من نسخة احتياطية.
+      </p>
+
+      <h2>7. خصوصية الأطفال</h2>
+      <p>
+        التطبيق أداة عامة لحساب الزكاة وإدارة السجلات المرتبطة بها، وليس
+        موجهًا خصيصًا للأطفال، ولا نطلب عمدًا معلومات شخصية من الأطفال.
+      </p>
+
+      <h2>8. التغييرات على هذه السياسة</h2>
+      <p>
+        قد نحدّث سياسة الخصوصية عند إضافة وظائف أو تغيير طريقة معالجة البيانات.
+        ستُنشر النسخة المحدثة في هذه الصفحة مع تعديل تاريخ آخر تحديث.
+        وإذا أضيفت مستقبلًا خدمات سحابية أو مزامنة أو خدمات تحليلية أو إعلانية،
+        فسيتم تحديث هذه السياسة والإفصاحات ذات الصلة قبل تطبيق التغييرات.
+      </p>
+
+      <h2>9. التواصل</h2>
+      <p>
+        للاستفسارات المتعلقة بالخصوصية، يرجى التواصل عبر:
+        <strong>[أضف بريد الدعم الرسمي هنا]</strong>.
+      </p>
+    </article>
+
+    <article id="english" class="english" lang="en" dir="ltr" hidden>
+      <p class="updated">Last updated: November 4, 2026</p>
+
+      <p>
+        Your privacy matters. This policy explains how
+        <strong>Zakat Calculation</strong> handles information when you use the
+        app, including local data storage and its connection to a gold-price service.
+      </p>
+
+      <h2>1. Information You Enter</h2>
+      <p>
+        The app does not require you to create an account or sign in. You may
+        choose to enter information to use its features, such as beneficiary
+        details, Zakat or Sadaqah allocation amounts and dates, payment records
+        and notes, as well as app settings and Zakat Guide favorites.
+      </p>
+
+      <h2>2. How Information Is Stored</h2>
+      <p>
+        Information you enter is stored locally on your device using the app's
+        local storage (SharedPreferences). The current version does not use an
+        app-operated server or cloud account to synchronize beneficiary,
+        allocation, or payment data.
+      </p>
+      <div class="notice">
+        <strong>Important backup notice:</strong>
+        The app's current Android configuration allows eligible app data to be
+        included in Android-managed backup and device-to-device transfer,
+        depending on your device settings, account, and available system services.
+        This is managed by Android; it is not a synchronization service or a
+        server operated by Zakat Calculation. Check your device's backup settings
+        for the options available to you.
+      </div>
+
+      <h2>3. Connection to the Gold-Price Service</h2>
+      <p>
+        To retrieve gold prices, the app connects to the third-party service
+        <a href="https://goldprice.dev/" target="_blank" rel="noopener noreferrer">GoldPrice.dev</a>
+        through an API. The requested currency code is included in the price
+        request. As with ordinary internet communication, the service provider
+        may receive technical connection information needed to handle the request,
+        such as your IP address and network-related information supplied by
+        your device or network.
+      </p>
+      <p>
+        The app does not send beneficiary names or details, allocation or payment
+        amounts, or your private notes to the gold-price service. The app may
+        retain the last retrieved price for use when a connection is unavailable
+        and indicate when that price is stale.
+      </p>
+      <p>
+        Your use of the third-party service is also subject to the provider's
+        privacy terms:
+        <a href="https://goldprice.dev/" target="_blank" rel="noopener noreferrer">GoldPrice.dev website</a>.
+      </p>
+
+      <h2>4. Sharing of Information</h2>
+      <p>
+        We do not sell personal information or share beneficiary details or
+        financial records with marketing organizations. Based on the app
+        components reviewed, the current version does not include advertising,
+        analytics, or third-party crash-reporting tools. The connection to the
+        gold-price service is described above.
+      </p>
+
+      <h2>5. Permissions and Diagnostic Logs</h2>
+      <p>
+        The app requires internet access to retrieve gold prices. Local
+        diagnostic messages may be written when certain errors occur while
+        the app is running; this does not by itself mean that those messages
+        are sent to an external server.
+      </p>
+
+      <h2>6. Data Security and Retention</h2>
+      <p>
+        Data is stored in the app's device storage and benefits from the
+        protections Android provides to applications. We do not claim that all
+        stored data is independently encrypted at the app level. Device security
+        also depends on your screen lock, security settings, and backup choices.
+      </p>
+      <p>
+        You can manage information you have entered through the app where its
+        features allow, and you can clear the app's data through Android settings
+        or uninstall the app. Uninstalling the app or clearing its data may
+        permanently remove local information that has not been restored from
+        a backup.
+      </p>
+
+      <h2>7. Children's Privacy</h2>
+      <p>
+        The app is a general-purpose Zakat calculator and record-management
+        tool and is not specifically directed at children. We do not knowingly
+        request personal information from children.
+      </p>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>
+        We may update this policy when app features or data practices change.
+        The updated version will be published on this page with a revised
+        update date. If cloud services, synchronization, analytics, or
+        advertising services are introduced in the future, this policy and
+        relevant disclosures will be updated before those changes take effect.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        For privacy-related questions, contact us at:
+        <strong>[Add your official support email here]</strong>.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>حساب الزكاة | Zakat Calculation</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('languageToggle');
+    const arabic = document.getElementById('arabic');
+    const english = document.getElementById('english');
+
+    toggle.addEventListener('click', () => {
+      const showingArabic = !arabic.hidden;
+      arabic.hidden = showingArabic;
+      english.hidden = !showingArabic;
+      document.documentElement.lang = showingArabic ? 'en' : 'ar';
+      document.documentElement.dir = showingArabic ? 'ltr' : 'rtl';
+      toggle.textContent = showingArabic ? 'العربية' : 'English';
+    });
+  </script>
+</body>
+</html>
